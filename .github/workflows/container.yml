@@ -5,10 +5,10 @@ on:
       - main
       - master
     paths:
-      - "packages/iter2/container/**"
+      - "packages/container/**"
 defaults:
   run:
-    working-directory: packages/iter2/container
+    working-directory: packages/container
 
 jobs:
   build:
